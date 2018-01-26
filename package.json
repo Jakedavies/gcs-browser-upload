@@ -2,11 +2,9 @@
   "name": "gcs-browser-upload",
   "version": "1.0.0",
   "description": "Resumable, chunked uploads to Google Cloud Storage from the browser",
-  "main": "dist/Upload.js",
+  "main": "src/Upload.js",
   "scripts": {
     "test": "make test",
-    "compile": "make compile",
-    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
